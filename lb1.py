@@ -3,6 +3,7 @@ import numpy as np
 
 def detect_white_objects(image_path):
     img = cv2.imread(image_path)
+    
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
