@@ -15,7 +15,4 @@ button1.pack(pady=5)
 button2 = tk.Button(root, text="Кнопка 2", command=lambda: on_button_click("Ви натиснули кнопку 2"))
 button2.pack(pady=5)
 
-button3 = tk.Button(root, text="Кнопка 3", command=lambda: on_button_click("Ви натиснули кнопку 3"))
-button3.pack(pady=5)
-
 root.mainloop()
